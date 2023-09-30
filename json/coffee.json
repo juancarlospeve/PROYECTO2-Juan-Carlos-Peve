@@ -1,0 +1,224 @@
+{
+  "productos": [
+    {
+      "código": "001",
+      "nombre": "Capuchino Clásico",
+      "descripción": "Un capuchino suave y delicioso con café caliente, leche cremosa y una pizca de cacao en polvo.",
+      "imagen": "./assets/img/capuchino.jpg",
+      "tamaño": "Mediano",
+      "sabor": "Clásico",
+      "precio": 1980,
+      "puntuación": 4,
+      "ingredientes": [
+        {
+          "café": "Espresso",
+          "leche": "Leche entera",
+          "espuma": "Espuma de leche",
+          "azúcar": "Azúcar",
+          "decoración": "Cacao en polvo"
+        }
+      ],
+      "información_nutricional": [
+        {
+          "calorías": 120,
+          "grasas": "6g",
+          "carbohidratos": "12g",
+          "proteínas": "4g"
+        }
+      ],
+      "caliente": true
+    },
+    {
+      "código": "002",
+      "nombre": "Latte Helado",
+      "descripción": "Un latte refrescante y cremoso con espresso y hielo, perfecto para los días calurosos.",
+      "imagen": "./assets/img/latte.jpg",
+      "tamaño": "Grande",
+      "sabor": "Helado",
+      "precio": 1650,
+      "puntuación": 4.7,
+      "ingredientes": [
+        {
+          "café": "Espresso",
+          "leche": "Leche descremada",
+          "espuma": "Sin espuma",
+          "azúcar": "Azúcar",
+          "decoración": "Hielo"
+        }
+      ],
+      "información_nutricional": [
+        {
+          "calorías": 80,
+          "grasas": "2g",
+          "carbohidratos": "15g",
+          "proteínas": "3g"
+        }
+      ],
+      "caliente": false
+    },
+    {
+      "código": "003",
+      "nombre": "Espresso Doble",
+      "descripción": "Dos shots de espresso puro y fuerte servidos en una taza pequeña. ¡Para los amantes del café fuerte!",
+      "imagen": "./assets/img/espresso.jpg",
+      "tamaño": "Pequeño",
+      "sabor": "Intenso",
+      "precio": 1550,
+      "puntuación": 4,
+      "ingredientes": [
+        {
+          "café": "Doble Espresso"
+        }
+      ],
+      "calorías": 5,
+      "información_nutricional": [
+        {
+          "calorías": 5,
+          "grasas": "0g",
+          "carbohidratos": "1g",
+          "proteínas": "0g"
+        }
+      ],
+      "caliente": true
+    },
+    {
+      "código": "004",
+      "nombre": "Mocha Chocolate",
+      "descripción": "Una mezcla indulgente de espresso, leche, chocolate caliente y crema batida. ¡Una delicia para los amantes del chocolate!",
+      "imagen": "./assets/img/mocha.jpg",
+      "tamaño": "Grande",
+      "sabor": "Chocolate",
+      "precio": 2110,
+      "puntuación": 4.6,
+      "ingredientes": [
+        {
+          "café": "Espresso",
+          "leche": "Leche entera",
+          "espuma": "Crema batida",
+          "azúcar": "Azúcar",
+          "decoración": "Chocolate rallado"
+        }
+      ],
+      "calorías": 280,
+      "información_nutricional": [
+        {
+          "calorías": 280,
+          "grasas": "12g",
+          "carbohidratos": "35g",
+          "proteínas": "6g"
+        }
+      ],
+      "caliente": true
+    },
+    {
+      "código": "005",
+      "nombre": "Vainilla Latte Helado",
+      "descripción": "Café frío con un toque de vainilla, leche y hielo. Refrescante y delicioso en cualquier momento del día.",
+      "imagen": "./assets/img/vainilla.jpg",
+      "tamaño": "Grande",
+      "sabor": "Vainilla",
+      "precio": 1750,
+      "puntuación": 4.4,
+      "ingredientes": [
+        {
+          "café": "Café frío",
+          "leche": "Leche descremada",
+          "espuma": "Sin espuma",
+          "azúcar": "Azúcar",
+          "decoración": "Vainilla"
+        }
+      ],
+      "calorías": 90,
+      "información_nutricional": [
+        {
+          "calorías": 90,
+          "grasas": "1g",
+          "carbohidratos": "20g",
+          "proteínas": "2g"
+        }
+      ],
+      "caliente": false
+    },
+    {
+      "código": "006",
+      "nombre": "Espresso Macchiato",
+      "descripción": "Un espresso simple con una pequeña cantidad de leche vaporizada y una pizca de caramelo.",
+      "imagen": "./assets/img/macchiato.jpg",
+      "tamaño": "Pequeño",
+      "sabor": "Caramelo",
+      "precio": 2090,
+      "puntuación": 4.5,
+      "ingredientes": [
+        {
+          "café": "Espresso",
+          "leche": "Leche vaporizada",
+          "azúcar": "Caramelo"
+        }
+      ],
+      "información_nutricional": [
+        {
+          "calorías": 40,
+          "grasas": "1g",
+          "carbohidratos": "6g",
+          "proteínas": "1g"
+        }
+      ],
+      "caliente": true
+    },
+    {
+      "código": "007",
+      "nombre": "Café Frappé",
+      "descripción": "Un café helado mezclado con leche, azúcar y hielo, coronado con crema batida y salsa de caramelo.",
+      "imagen": "./assets/img/frappe.jpg",
+      "tamaño": "Grande",
+      "sabor": "Caramelo",
+      "precio": 2200,
+      "puntuación": 4.7,
+      "ingredientes": [
+        {
+          "café": "Café frío",
+          "leche": "Leche entera",
+          "azúcar": "Azúcar",
+          "decoración": "Crema batida, caramelo"
+        }
+      ],
+      "calorías": 320,
+      "información_nutricional": [
+        {
+          "calorías": 320,
+          "grasas": "15g",
+          "carbohidratos": "40g",
+          "proteínas": "5g"
+        }
+      ],
+      "caliente": false
+    },
+    {
+      "código": "008",
+      "nombre": "Café Irlandés",
+      "descripción": "Un café caliente con whisky irlandés, azúcar y crema batida. Una bebida cálida y reconfortante.",
+      "imagen": "./assets/img/irlandes.jpg",
+      "tamaño": "Grande",
+      "sabor": "Irlandés",
+      "precio": 2200,
+      "puntuación": 4.8,
+      "ingredientes": [
+        {
+          "café": "Espresso",
+          "leche": "Sin leche",
+          "azúcar": "Azúcar",
+          "decoración": "Crema batida, whisky irlandés"
+        }
+      ],
+      "información_nutricional": [
+        {
+          "calorías": 180,
+          "grasas": "8g",
+          "carbohidratos": "20g",
+          "proteínas": "1g"
+        }
+      ],
+      "caliente": true
+    }
+  ]
+}

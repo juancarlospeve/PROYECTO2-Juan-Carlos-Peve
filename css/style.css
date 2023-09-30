@@ -1,0 +1,57 @@
+/* Variables de colores y fuentes*/
+:root {
+  --nunito-font: "Nunito", sans-serif;
+  --merienda-font: "Merienda", cursive;
+  --main-color: #2f2105;
+  --primary-color: #ff902b;
+  --secundary-color: #c7a17a;
+  --white-color: #ffffff;
+  --dark-color: #444444;
+}
+
+/* Reseteo y modelo de caja para todos los elementos y seudoelementos */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Desplazamiento suave por el documento*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.75rem;
+}
+
+/* Estilos generales para el cuerpo del documento */
+body {
+  font-family: var(--nunito-font);
+  color: var(--dark-color);
+  background-color: var(--dark-color);
+}
+
+/* Estilos generales para las listas */
+ul {
+  list-style: none;
+}
+
+/* Estilos generales para los enlaces */
+a {
+  text-decoration: none;
+}
+
+/* Estilos generales para las imágenes */
+img {
+  max-width: 100%;
+}
+
+/* Estilos generales para los apartados header, main y footer */
+header,
+main,
+footer {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px;
+  background-color: var(--white-color);
+}

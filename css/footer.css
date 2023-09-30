@@ -1,0 +1,68 @@
+/*--------------------------------*/
+/*         Pie da página          */
+/*--------------------------------*/
+#footer {
+  width: 100%;
+  background-color: var(--secundary-color);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  padding-top: 30px;
+}
+
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--main-color);
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links i {
+  color: var(--white-color);
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid var(--white-color);
+  padding: 4px 8px;
+
+  border-radius: 4px;
+  transition: all 0.4s ease;
+}
+
+.social-links i:hover {
+  background-color: var(--main-color);
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-links i {
+  font-size: 20px;
+  color: var(--white-color);
+  padding-right: 15px;
+}
+
+.contact-links a {
+  font-size: 1rem;
+  color: var(--white-color);
+}
+
+.credit {
+  font-size: 1rem;
+  text-align: center;
+  color: var(--main-color);
+  border-top: 2px solid var(--white-color);
+  margin-top: 1.875rem;
+  padding: 0.5rem;
+}

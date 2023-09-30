@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <!--- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Juan Carlos Pevé" />
+    <meta name="title" content="Coffee Shop - Tienda de Café en Línea" />
+    <meta name="description" content="Te invitamos a descubrir el auténtico sabor del café argentino. Desde capuchinos suaves hasta lattes cremosos, nuestra pasión por el café se refleja en cada taza que servimos. Explora nuestro catálogo de café de alta calidad y productos relacionados." />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Café en línea, Comprar café, Capuchino, Granos de café" />
+    <!-- Google Font - Nunito - Merienda -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/icon/coffee.png" type="image/x-icon" />
+    <!-- Título -->
+    <title>Coffee Shop - Tienda de Café en Línea</title>
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <!-- Comienzo del encabezado -->
+    <header id="header">
+      <div class="logo">
+        <img class="logo-img" src="./assets/img/coffee.jpg" alt="logo_coffe" />
+        <h1 class="logo-name">Coffe Shop</h1>
+      </div>
+      <nav class="navbar">
+        <a href="#" class="nav-link">Inicio</a>
+        <a href="#about" class="nav-link">Nosotros</a>
+        <a href="#services" class="nav-link">Servicios</a>
+        <a href="#product" class="nav-link">Productos</a>
+      </nav>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    <!-- Finaliza el encabezado -->
+    <!-- Comienzo del contenido principal -->
+    <main>
+      <!-- Comienzo de la sección banner -->
+      <section id="banner">
+        <div class="banner-content">
+          <p class="banner-text">100% Natural</p>
+          <h2 class="banner-title">¡Descubre el verdadero sabor del café!</h2>
+        </div>
+      </section>
+      <!-- Finaliza la sección banner -->
+      <!-- Comienza la sección nosotros -->
+      <h2 class="heading">Sobre nosotros</h2>
+      <section id="about">
+        <div class="about-grid">
+          <div class="about-img">
+            <img src="./assets/img/about.jpg" alt="about" />
+          </div>
+          <div class="about-content">
+            <h3 class="about-title">¿Qué hace que nuestro café sea especial?</h3>
+            <div class="about-line"></div>
+            <p class="about-text">Somos apasionados por el café y estamos comprometidos con brindarte la mejor experiencia.</p>
+            <p class="about-text">Nuestra misión es simple pero poderosa: proporcionar a nuestros clientes café excepcional, desde capuchinos y lattes hasta espresso puro, todo preparado con los granos más selectos y cuidadosamente seleccionados. Valoramos la artesanía en cada preparación, y cada taza que servimos es un testimonio de nuestro amor por el café.</p>
+          </div>
+        </div>
+      </section>
+      <!-- Finaliza la sección nosotros -->
+      <!-- Comienza la sección servicios -->
+      <h2 id="services" class="heading">Nuestros servicios</h2>
+      <section id="service">
+        <div class="service-card">
+          <div class="service-content">
+            <span class="service-icon"><i class="bi bi-wallet2"></i></span>
+            <h3 class="service-title">Contrarrembolso</h3>
+            <p class="service-text">Garantía de devolución de dinero</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-content">
+            <span class="service-icon"><i class="bi bi-gift"></i></span>
+            <h3 class="service-title">Tarjeta de regalo</h3>
+            <p class="service-text">Ofrecemos bono especiales con regalo</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-content">
+            <span class="service-icon"><i class="bi bi-headset"></i></span>
+            <h3 class="service-title">Servicio al cliente 24/7</h3>
+            <p class="service-text">Llámenos ante cualquier duda</p>
+          </div>
+        </div>
+      </section>
+      <!-- Finaliza la sección servicios -->
+      <!-- Comienza la sección productos -->
+      <h2 class="heading">Nuestros productos</h2>
+      <section id="product">
+        <!-- Los productos se cargan dinámicamente utilizando JavaScript -->
+      </section>
+      <!-- Finaliza la sección productos -->
+    </main>
+    <!-- Finaliza el contenido principal -->
+    <!-- Comienza el pie de página -->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="social">
+          <h4 class="footer-title">Nuestras redes</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+        <div class="contact">
+          <h4 class="footer-title">Contacto</h4>
+          <div class="contact-links">
+            <a href="+123-456-7890" target="_blank"><i class="bi bi-telephone-fill"></i> +123-456-7890</a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i> +11-222-3333</a>
+            <a href="https://maps.app.goo.gl/kaBK7U171JjTxoa17" target="_blank"><i class="bi bi-geo-alt-fill"></i> Avenida Siempreviva 742</a>
+            <a href="href=coffeeshop@soporte.com" target="_blank"><i class="bi bi-envelope-at-fill"></i> coffeeshop@soporte.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="credit">Desarrollado por Juan Carlos Pevé | Todos los derechos reservados</div>
+    </footer>
+    <!-- Finaliza el pie de página -->
+    <!-- JavaScript -->
+    <script src="./js/navbar.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
